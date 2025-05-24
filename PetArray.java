@@ -14,7 +14,7 @@ public class PetArray
 
         for (i = 0; i < human; i++)
         {
-            System.out.println("Enter number of dogs: ");
+            System.out.println("Enter number of dogs for human " + (i+1) ": ");
             dog = sc.nextInt() + 1; // +1 is added to make up enough space for dog age since human age is in the first column
             ages[i] = new int[dog]; // instantiated the column with scanned number of dogs per human
             
